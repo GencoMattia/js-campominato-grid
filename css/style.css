@@ -34,9 +34,11 @@
 /* ---------------------------------main------------------------------------- */
 .main-container{
     background-color: #7fffd4;
+    padding: 3rem 0;
 }
 
 #grid{
+    margin: 0 auto;
     width: 800px;
     height: 800px;
     display: flex;
@@ -53,5 +55,5 @@
 }
 
 #grid > article.active{
-    background-color: aqua;
+    background-color: ;
 }
