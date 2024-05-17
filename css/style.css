@@ -44,6 +44,7 @@ body{
 /* Header-Button */
 .header-button{
     margin-left: auto;
+    padding-right: 3rem;
 }
 
 #play-button{
