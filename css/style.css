@@ -39,3 +39,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+#grid > article{
+    width: calc(100% / 10);
+}
