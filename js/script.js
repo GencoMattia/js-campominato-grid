@@ -14,4 +14,9 @@ for(i = 0; i < 100; i++) {
         cellEl.classList.toggle("active");
         console.log(cellNumberEl.outerText);
     });
+
+    document.querySelector("#play-button").addEventListener("click", function(){
+        cellEl.classList.remove("active");
+    })
 }
+
