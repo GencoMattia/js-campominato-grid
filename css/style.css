@@ -14,6 +14,10 @@
 }
 
 /* ---------------------General------------------------ */
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .general-container{
     max-width: 1200px;
     margin: 0 auto;
@@ -33,8 +37,8 @@
 }
 
 /* Header Title */
-.header-title{
-    
+.header-title > h1{
+    font-size: 2.5rem;
 }
 
 /* Header-Button */
@@ -68,6 +72,10 @@
     align-items: center;
     width: calc(100% / 10);
     border: 1px solid black;
+}
+
+#grid > article > span{
+    font-weight: bold;
 }
 
 #grid > article.active{
