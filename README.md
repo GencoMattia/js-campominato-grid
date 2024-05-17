@@ -10,3 +10,17 @@ Consigli del giorno:
 Scriviamo prima cosa vogliamo fare passo passo in italiano, dividiamo il lavoro in micro problemi.
 Ad esempio: Di cosa ho bisogno per generare i numeri?
 Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti. Le validazioni e i controlli possiamo farli anche in un secondo momento.
+
+
+- creare struttura container in file html
+- aggiungere classi generiche in css per stilizzare container e tabella futura
+- js: creare un ciclo for reiterativo un numero di volte pari al numero di celle all'interno della griglia
+- creare elemento cella, e elemento testo interno alla cella.
+- recuperare container da file html in js
+- appendere elemento cella con elementi interni reitaranti con il ciclo
+- creare una condizione if che assegna diverse classi in base al contenuto della cella.
+- aggiungere evento click sulle celle aggiungendo classi al click  
+- iniziare a creare la macrostruttura su html con header e elementi interni
+- aggiungere tasto "play" 
+- JS: connettere il tasto play con un event-listener in modo che resetti lo stato delle celle.
+    - possibilmente rimuovendo le classi aggiunte al click
