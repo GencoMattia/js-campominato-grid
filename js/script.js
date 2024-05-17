@@ -11,7 +11,7 @@ for(i = 0; i < 100; i++) {
     
     // Event Click
     cellEl.addEventListener("click", function() {
-        cellEl.classList.toggle("active")
-        console.log(cellNumberEl.outerText)
+        cellEl.classList.toggle("active");
+        console.log(cellNumberEl.outerText);
     });
 }
