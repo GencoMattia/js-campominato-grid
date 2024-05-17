@@ -5,7 +5,13 @@ for(i = 0; i < 100; i++) {
     const cellNumberEl = document.createElement("span");
 
     // Adding Elements
-    gridEl.appendChild(cellEl)
-    cellEl.appendChild(cellNumberEl)
-    cellNumberEl.append(i)    
+    gridEl.appendChild(cellEl);
+    cellEl.appendChild(cellNumberEl);
+    cellNumberEl.append(i + 1);
+    
+    // Event Click
+    cellEl.addEventListener("click", function() {
+        cellEl.classList.toggle("active")
+        console.log(cellNumberEl.outerText)
+    });
 }
