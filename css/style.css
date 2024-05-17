@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* General */
+.general-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header-container{
+    display: flex;
+}
+.header-logo{
+    width: 100px;
+}
+.header-logo > img{
+    width: 100%;
+}
+.header-button{
+    margin-left: auto;
+}
