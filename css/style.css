@@ -4,22 +4,36 @@
     box-sizing: border-box;
 }
 
-/* General */
+/* ---------------------General------------------------ */
 .general-container{
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Header */
+/* ---------------------------Header-------------------------- */
 .header-container{
     display: flex;
 }
+
+/* Header logo */
 .header-logo{
     width: 100px;
 }
 .header-logo > img{
     width: 100%;
 }
+
+/* Header Title */
+
+
+/* Header-Button */
 .header-button{
     margin-left: auto;
+}
+
+/* ---------------------------------main------------------------------------- */
+
+#grid{
+    width: 800px;
+    height: 800px;
 }
